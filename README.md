@@ -8,6 +8,14 @@
 
 Repositório dedicado aos meus estudos de programação de CLPs Siemens com **STEP 7 v5.7 (Simatic Manager)** integrado com simulações no **Factory IO**. Aqui você encontrará projetos práticos, exemplos de scenes resolvidas e documentação visual completa com imagens e vídeos.
 
+### 📊 Estatísticas do Projeto
+
+- 🎯 **Scenes Concluídas:** 1
+- 📝 **Documentações Criadas:** 3 (READMEs + Docs técnicas)
+- 📸 **Imagens Documentadas:** 5+
+- 🎬 **Vídeos Demonstrativos:** 1
+- 💾 **Projetos STEP 7:** 1 completo
+
 ## 🎯 Objetivos
 
 - 📚 Documentar o aprendizado em automação industrial
@@ -24,14 +32,15 @@ Repositório dedicado aos meus estudos de programação de CLPs Siemens com **ST
 ```
 📁 Siemens_Simatic/
 └── 📁 05_FactoryIO_Scenes/         # 🔥 EM DESENVOLVIMENTO
-    ├── 📁 Scene_01_[Nome]/
+    ├── 📁 Scene_01_From_A_to_B/    # ✅ CONCLUÍDO
     │   ├── 📁 Projeto/             # Arquivos .s7p do STEP 7
     │   ├── 📁 FactoryIO/           # Arquivos .factoryio
     │   ├── 📁 Imagens/             # Screenshots e diagramas
     │   ├── 📁 Videos/              # Vídeos demonstrativos
+    │   ├── 📁 Simulador/           # Arquivos do simulador
     │   ├── 📁 Documentacao/        # Descrição e explicações
     │   └── README.md               # Documentação da scene
-    ├── 📁 Scene_02_[Nome]/
+    ├── 📁 Scene_01_Exemplo/        # Template de referência
     └── ...
 ```
 
@@ -105,21 +114,24 @@ Repositório dedicado aos meus estudos de programação de CLPs Siemens com **ST
 #### ✅ Estrutura Criada
 - [x] Repositório e README principal
 - [x] Estrutura de pastas para scenes
+- [x] Template de exemplo (Scene_01_Exemplo)
 
 #### 🔄 Em Desenvolvimento
-- [ ] Scene 01 - [Aguardando implementação]
+- [x] Scene 01 - From A to B ✅ **CONCLUÍDO**
 - [ ] Scene 02 - [Aguardando implementação]
 - [ ] Scene 03 - [Aguardando implementação]
 
 #### 📋 Metodologia de Documentação de Cada Scene
-Para cada scene resolvida, será incluído:
-- ✅ Código STEP 7 (.s7p)
+Cada scene resolvida inclui:
+- ✅ Código STEP 7 (.s7p + backup .zip)
 - ✅ Arquivo Factory IO (.factoryio)
-- ✅ Documentação explicativa (README.md)
-- ✅ Imagens do processo e lógica ladder/STL
-- ✅ Vídeo curto demonstrando o funcionamento
+- ✅ Documentação explicativa (README.md completo)
+- ✅ Imagens do processo e lógica (Ladder, HW Config, Símbolos, etc.)
+- ✅ Vídeo curto demonstrando o funcionamento (.mp4)
 - ✅ Lista de tags e endereçamento I/O
 - ✅ Descrição do problema e solução implementada
+- ✅ Arquivo simulador alternativo (quando aplicável)
+- ✅ Documentação técnica adicional (ESTRUTURA_ARQUIVOS.md)
 
 ### 📅 Fases Futuras
 
@@ -154,14 +166,26 @@ Para cada scene resolvida, será incluído:
 
 ### 🎬 Factory IO Scenes Resolvidas
 
-_Em breve: Imagens e vídeos das scenes implementadas_
+#### Scene 01 - From A to B ✅
+![Scene Simulation](./05_FactoryIO_Scenes/Scene_01_From_A_to_B/Imagens/Simulation.png)
 
-<!-- 
-Exemplo de estrutura para cada scene:
-### Scene 01 - [Nome]
-![Scene Preview](./05_FactoryIO_Scenes/Scene_01_[Nome]/Imagens/preview.png)
-[📹 Ver Vídeo Demonstrativo](./05_FactoryIO_Scenes/Scene_01_[Nome]/Videos/)
--->
+**Descrição:** Transporte básico de caixa do ponto A ao ponto B  
+**Status:** Concluído  
+**Dificuldade:** ⭐ Básico  
+
+📹 [Ver Vídeo Demonstrativo](./05_FactoryIO_Scenes/Scene_01_From_A_to_B/Videos/Simulation.mp4)  
+� [Ver Documentação Completa](./05_FactoryIO_Scenes/Scene_01_From_A_to_B/)
+
+**Recursos incluídos:**
+- ✅ Projeto STEP 7 completo (.s7p)
+- ✅ Scene Factory IO (S7-300)
+- ✅ 5 imagens documentadas (Ladder, HW Config, Símbolos, etc.)
+- ✅ Vídeo demonstrativo
+- ✅ Documentação técnica completa
+
+---
+
+_Mais scenes em desenvolvimento..._
 
 ## 🤝 Contribuições
 
@@ -193,4 +217,25 @@ Dúvidas ou sugestões? Entre em contato através das issues do GitHub!
 
 ---
 
-*Última atualização: Novembro 2025*
+## 📈 Progresso do Projeto
+
+```
+Fase 1: Factory IO Scenes ████████░░░░░░░░░░ 10% (1/10 scenes planejadas)
+├── ✅ Scene 01 - From A to B (Concluída)
+├── ⏳ Scene 02 - Planejada
+├── ⏳ Scene 03 - Planejada
+└── ... mais 7 scenes
+
+Documentação  ████████████████████ 100% (Sistema implementado)
+Infraestrutura ███████████████████ 95% (Estrutura + Templates)
+```
+
+## 🗓️ Histórico de Atualizações
+
+- **20/11/2025** - ✅ Scene 01 "From A to B" concluída e documentada
+- **20/11/2025** - 📁 Estrutura de pastas e templates criados
+- **20/11/2025** - 🚀 Repositório inicial criado
+
+---
+
+*Última atualização: 20/11/2025*

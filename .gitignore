@@ -1,0 +1,23 @@
+# Ignore exemplo/template scenes
+05_FactoryIO_Scenes/Scene_01_Exemplo/
+
+# Arquivos do Sistema Operacional
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Arquivos temporários do Windows
+~$*
+*.tmp
+
+# Arquivos do Simatic Manager / STEP 7
+*.s7p.bak
+*.tmp
+*.~*
+
+# Arquivos temporários do Factory IO
+*.factoryio.bak
+
+# Logs
+*.log
+
