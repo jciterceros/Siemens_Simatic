@@ -117,7 +117,9 @@ Descrição: Quando o sensor detecta a caixa, desliga o motor.
 
 ## 🎬 Vídeo Demonstrativo
 
-[📹 Ver vídeo do funcionamento](./Videos/Simulation.mp4)
+[![📹 Ver vídeo do funcionamento](https://img.youtube.com/vi/hnoBvjmEk_U/0.jpg)](https://youtu.be/hnoBvjmEk_U)
+
+**Link direto:** [https://youtu.be/hnoBvjmEk_U](https://youtu.be/hnoBvjmEk_U)
 
 **Descrição do vídeo:**  
 Demonstração do transporte da caixa do ponto A ao ponto B, mostrando o acionamento da esteira, movimento da caixa e parada ao detectar o sensor.
